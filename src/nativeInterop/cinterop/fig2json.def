@@ -1,0 +1,3 @@
+headers = fig2json.h
+package = com.github.kreako.fig2json.native
+headerFilter = fig2json.h
