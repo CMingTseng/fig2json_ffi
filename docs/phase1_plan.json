@@ -1,0 +1,35 @@
+{
+  "phase": 1,
+  "name": "High Compatibility - Official Alignment",
+  "tasks": [
+    {
+      "id": "T1",
+      "description": "Absolute Bounding Box Calculation",
+      "subtasks": [
+        "Implement Matrix2D struct in tree.rs",
+        "Recursive matrix accumulation in build_node_tree",
+        "Inject absoluteBoundingBox field into nodes"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "T2",
+      "description": "Global Metadata Mapping",
+      "subtasks": [
+        "Scan nodeChanges for SYMBOL and STYLE types",
+        "Populate root-level 'components' object",
+        "Populate root-level 'styles' object"
+      ],
+      "status": "in_progress"
+    },
+    {
+      "id": "T3",
+      "description": "Compatibility Mode Defaulting",
+      "subtasks": [
+        "Disable destructive transformations by default in lib.rs",
+        "Ensure all scrollBehavior and constraints are preserved"
+      ],
+      "status": "pending"
+    }
+  ]
+}
