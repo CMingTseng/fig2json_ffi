@@ -156,3 +156,4 @@ target
 # Kotlin2.0
 .kotlin/
 /common/common.podspec
+CLAUDE.md
